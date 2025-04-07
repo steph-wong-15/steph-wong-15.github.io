@@ -1,0 +1,112 @@
+/* src/index.css */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  background-color: #8eac50; /* Earthy Green */
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #4a7023; /* Dark Green */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 5px;
+  border: 1px solid #8eac50; /* Green border */
+  background-color: #fff;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+button {
+  padding: 10px;
+  background-color: #4caf50; /* Earthy Green */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.error-message {
+  color: red;
+}
+
+.climb-list-container {
+  margin-top: 30px;
+}
+
+.climb-item {
+  background-color: #e8f5e9; /* Light Green */
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.climb-item h3 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #388e3c; /* Dark Green */
+}
+
+.climb-item p {
+  margin: 5px 0;
+  color: #6d6d6d; /* Greyish color */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: #c8e6c9; /* Very light green background for list items */
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
